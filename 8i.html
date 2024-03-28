@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<title>Coin-flip game</title>
+<head></head>
+<body>
+  <button onclick="
+    playGame('heads');
+    ">heads</button>
+  <button onclick ="
+    playGame('tails');
+  ">tails</button>
+</body>
+<script>
+  const score = {
+    wins: 0,
+    losses: 0
+  };
+
+ function  playGame(guess){
+
+    const variable1 = Math.random();
+  console.log(variable1);
+  let result = '';
+  
+  if(variable1<0.5){
+    result = 'heads';
+  }
+  else{
+    result = 'tails';
+  }
+  
+  
+  if(guess === result){
+    console.log('You win!');
+    score.wins += 1;
+  }else{
+    console.log('You lose');
+    score.losses += 1;
+  }
+console.log(score);
+
+
+}
+
+
+  
+</script>
+</html>

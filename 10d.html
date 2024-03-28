@@ -1,0 +1,51 @@
+ <!DOCTYPE html>
+<html>
+    <head>
+        <title>10d</title>
+        
+         <link rel="stylesheet" href="styles/10d.css">
+        
+    </head>
+    <body>
+      
+      <button class=" js-button" onclick="
+       const button = document.querySelector('.js-button')
+        if(button.classList.contains('is-toggled')){
+          button.classList.remove('is-toggled');
+        }
+        else{
+          button.classList.add('is-toggled');
+        }
+        
+        ">Gaming</button>
+
+        <button class="js-music-but" onclick="
+         const music_but = document.querySelector('.js-music-but');
+         if(music_but.classList.contains('is-toggled')){
+          music_but.classList.remove('is-toggled');
+         }
+         else{
+          music_but.classList.add('is-toggled');
+         }
+        
+        ">Music</button>
+        <button class="js-tech-but" onclick="
+        const tech_but = document.querySelector('.js-tech-but');
+        if(tech_but.classList.contains('is-toggled')){
+          tech_but.classList.remove('is-toggled');
+         }
+         else{
+          tech_but.classList.add('is-toggled');
+         }
+
+        
+        ">Tech</button>
+         
+        
+
+        <script>
+          
+        </script>
+    </body>
+</html> 
+

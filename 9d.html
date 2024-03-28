@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>9d</title>
+  </head>
+  <body>
+   <input class="js-input" onkeydown="
+    answer2(event);
+    ">
+   <button onclick="
+   answer();
+   ">Submit</button>
+    <p class="js-display"></p>
+   
+  </body>
+   <script>
+    function answer2(event){
+      if(event.key === 'enter'){
+        answer();
+      }
+    }    
+
+
+    function answer(){
+      let inputVal = document.querySelector('.js-input')
+     
+      document.querySelector('.js-display')
+    .innerHTML = `Your name is: ${inputVal.value} `
+     
+    }
+       
+   </script>
+</html>

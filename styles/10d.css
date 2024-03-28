@@ -1,0 +1,27 @@
+.js-button{
+  border: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+
+}
+
+.is-toggled{
+  background-color: black;
+  color: white;
+
+}
+
+.js-music-but{
+  border: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  margin-left: 8px;
+}
+
+.js-tech-but{
+  border: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  margin-left: 8px;
+}
